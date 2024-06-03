@@ -1,0 +1,246 @@
+body {
+  font-family: Arial;
+  background-color: #ffffff;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.conteiner {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.list-base {
+  display: flex;
+  justify-content: space-around;
+}
+.item-links {
+  padding: 12px;
+  border-radius: 10px;
+
+  background-color: #606060;
+  color: #ffffcc;
+  text-decoration: none;
+}
+.home-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 5px;
+  border-radius: 20px;
+  width: 125px;
+  background-color: #999999;
+  color: #1c274c;
+
+  text-decoration: none;
+}
+.svg {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  fill: #1c274c;
+}
+
+/* -------- task 1 ------- */
+
+.conteiner-task1 {
+  padding: 20px;
+  border: 1px solid #1c274c;
+}
+
+.item-task1 {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.item-task1:not(:last-child) {
+  margin-bottom: 8px;
+}
+/* .item-task1:nth-child(2n){
+    background-color: #ffffcc;
+} */
+.item-task1:nth-child(even) {
+  background-color: #999999;
+}
+/* ------- task 2 ------ */
+.conteiner-task2 {
+  padding: 20px;
+  border: 2px solid #000000;
+}
+
+.list-task2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-task2 {
+  padding: 15px;
+}
+.item-task2:not(:last-child) {
+  border-right: 1px solid #999999;
+}
+/* ------- task 3 -------- */
+.header {
+  height: 58px;
+  background-color: #0017ff;
+}
+.list-taks3 {
+  display: flex;
+  align-items: center;
+}
+.item-task3 > a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.item-task3 > a {
+  padding: 20px;
+}
+.item-task3 > a:hover,
+.item-task3 > a:focus,
+.item-task3 > a:active {
+  background-color: #a3e4d7;
+}
+
+.section {
+  padding: 20px 10px;
+}
+.footer {
+  padding: 10px;
+  background-color: #ca6f1e;
+}
+.footer-item3 > a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e5e7e9;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-item3 > a:hover {
+  background-color: #0017ff;
+}
+.footer-item3:not(:last-child) {
+  margin-right: 10px;
+}
+/* ----- task 4 ------ */
+.conteiner-task4 {
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/cat.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 3px solid #0017ff;
+
+  border-radius: 50%;
+  background-color: #ca6f1e;
+}
+/* ------ task 5 ------ */
+.conteinets {
+  background-image: url(./image/HTML5.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top 35px right;
+  background-attachment: fixed;
+}
+.conteiner-task5 {
+  width: 650px;
+  padding: 30px 15px 20px;
+  border: 1px solid #000000;
+}
+.item-list5:not(:last-child) {
+  margin-bottom: 8px;
+}
+/* ------ task 6 */
+.conteiners-task6 {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  width: 604px;
+  border: 1px solid #000000;
+}
+.conteiner-task6 {
+  padding: 5px;
+  width: 280px;
+  height: 150px;
+  border: 1px solid #606060;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center top 15px;
+  background-size: 70px;
+}
+.html {
+  background-image: url(./image/HTML5.png);
+}
+.css {
+  background-image: url(./image/CSS3.png);
+}
+.text-task6 {
+  font-size: 25px;
+  margin-top: 97px;
+  text-align: center;
+}
+/* ------ task 7 ------ */
+.section-task7 {
+  /* height: 400px; */
+  padding: 100px 100px 150px;
+  color: #ffffff;
+  background-image: url(./image/затемненний.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-task7 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.list-task7 {
+  display: flex;
+  gap: 25px;
+}
+.item-title7 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left;
+}
+.img1 {
+  background-image: url(./image/1.png);
+}
+.img2 {
+  background-image: url(./image/2.png);
+}
+.img3 {
+  background-image: url(./image/3.png);
+}
+.text-task7 {
+  text-align: justify;
+  color: #e5e7e9;
+}
