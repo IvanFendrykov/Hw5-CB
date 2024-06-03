@@ -150,7 +150,7 @@ img {
 .conteiner-task4 {
   width: 200px;
   height: 200px;
-  background-image: url(/image/cat.jpeg);
+  background-image: url(./image/cat.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
